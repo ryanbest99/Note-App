@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 3px solid red;
+}
+
+.notepad {
+  border: 3px solid blue;
+  /* max-width: 1920px; */
+  margin: 0 auto;
+}
+
+.note {
+  /* border: 3px solid red; */
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  background: #fff580;
+}
+
+.note-text {
+  border: 3px dashed red;
+  /* margin-bottom: 5rem; */
+  padding-bottom: 20rem;
+}
+
+.note-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .notepad {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .note {
+    flex: 0 0 calc(48% - 1rem);
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .notepad {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .note {
+    flex: 0 0 calc(32% - 1rem);
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1720px) {
+  .notepad {
+    display: flex;
+    /* justify-content: start; */
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .note {
+    flex: 0 0 calc(24% - 1rem);
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 2120px) {
+  .notepad {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .note {
+    flex: 0 0 calc(19% - 1rem);
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 2520px) {
+  .notepad {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .note {
+    flex: 0 0 calc(16% - 1rem);
+    align-self: center;
+  }
+}
